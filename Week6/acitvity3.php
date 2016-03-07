@@ -18,7 +18,7 @@
     echo "Hello World";
     echo "Hello, world!";
     echo 5 * 7;
-    echo "My name is" .$myname. "and I am" .$myage;
+    echo "My name is" . $myname. "and I am" . $myage;
     // Testing
     /* comment test */
     ?>
