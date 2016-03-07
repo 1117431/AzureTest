@@ -25,7 +25,7 @@
 
     //using equations
 
-    echo 5 * 7 <br>;
+    echo 5 * 7;
 
     // sentence
     echo "My name is " . $myname. " and I am " . $myage;
