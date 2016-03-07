@@ -25,7 +25,7 @@
 
     //using equations
 
-    echo 5 * 7;
+    echo 5 * 7 <br>;
 
     // sentence
     echo "My name is " . $myname. " and I am " . $myage;
@@ -37,7 +37,7 @@
         print "I know you!";
     }
         else {
-            print "Who are you?";
+            print "Who are you? <br>";
         }
     ?>
 </p>
