@@ -31,13 +31,13 @@
     echo "My name is " . $myname. " and I am " . $myage;
     // Testing
     /* comment test */
-
+    echo "<br>";
     //using if statements and else commands
     if($name == "Simon"){
         print "I know you!";
     }
         else {
-            print "Who are you? <br>";
+            print "Who are you?";
         }
     ?>
 </p>
