@@ -20,15 +20,15 @@
 
     // test for hello world
 
-    echo "Hello World";
-    echo "Hello, world!";
+    echo "Hello World <br>";
+    echo "Hello, world! <br>";
 
     //using equations
 
     echo 5 * 7;
 
     // sentence
-    echo "My name is" . $myname. "and I am" . $myage;
+    echo "My name is " . $myname. " and I am " . $myage;
     // Testing
     /* comment test */
 
