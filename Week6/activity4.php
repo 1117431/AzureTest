@@ -19,16 +19,16 @@
     // if statements for activity 4
 
     if($myage>=21){
-        print "You can buy Specs, Mugs and Sausage rolls!";
+        echo "You can buy Specs, Mugs and Sausage rolls!";
     }
     elseif($myage>=18){
-        print "You can buy mugs ans specs";
+        echo "You can buy mugs ans specs";
     }
     elseif($myage>=16){
-        print "You can only buy Specs";
+        echo "You can only buy Specs";
     }
     else
-        print "You are not off age"
+        echo "You are not off age"
     ?>
 </p>
 </body>
