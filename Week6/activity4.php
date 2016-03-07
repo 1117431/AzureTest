@@ -14,17 +14,17 @@
 <p>
     <?php
     // variables in php
-    $myage = 21;
+    $myage = 16;
 
     // if statements for activity 4
 
-    if($myage>="21" ){
+    if($myage>=21){
         print "You can buy Specs, Mugs and Sausage rolls!";
     }
-    else if($myage>="18"){
+    elseif($myage>=18){
         print "You can buy mugs ans specs";
     }
-    else if($myage>="16"){
+    elseif($myage>=16){
         print "You can only buy Specs";
     }
     else
