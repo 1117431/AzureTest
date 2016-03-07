@@ -14,7 +14,7 @@
 <p>
     <?php
     // variables in php
-    $myage = 16;
+    $myage = 15;
 
     // if statements for activity 4
 
