@@ -13,5 +13,9 @@
     $round_decimal = round(M_PI,4);
     print $round_decimal;
 
+echo "<br>";
+
+    print rand(1,55);
+
 
 ?>
