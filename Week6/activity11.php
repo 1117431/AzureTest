@@ -14,7 +14,17 @@
     print $length;
 
 //you can manipulate strings easily with built -in functions too
+echo "<br>";
+    $partial = substr($myname,0,5);
+    print $partial; //prints Enabu
 
-$partial = substr($myname,0,5);
-print $partial; //prints Enabu
+echo "<br>";
+
+    $uppercase = strtoupper($myname);
+    print $uppercase;
+
+echo "<br>";
+
+    $lowercase = strtolower($myname);
+    print $lowercase;
 ?>
