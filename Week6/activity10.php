@@ -21,17 +21,17 @@ while(($spec_stock >0)&& ($mug_stock >0) && ($sausageroll_stock >0)){
     switch ($todaysGood){
         case 0:
             $spec_stock--;
-            echo  "On day " .$monthDate. "Specs are available<br>";
+            echo  "On day " .$monthDate. " Specs are available<br>";
         break;
 
         case 1:
             $mug_stock--;
-            echo "On day " .$monthDate. "Mugs are available<br>";
+            echo "On day " .$monthDate. " Mugs are available<br>";
         break;
 
         case 2:
             $sausageroll_stock--;
-            echo "On day" .$monthDate. "Sausage rolls are available<br>";
+            echo "On day" .$monthDate. " Sausage rolls are available<br>";
         break;
     }
     $monthDate++; //puts the month forward by one day
