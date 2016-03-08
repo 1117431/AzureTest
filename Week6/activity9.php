@@ -5,13 +5,13 @@
  * Date: 08/03/2016
  * Time: 09:31
  */
-
-for($i = 1; $i <10; $i++)
+$provisionedActivities = array("specs","mugs","sausage rolls"); // declares the array
+for($i = 1; $i <15; $i++)
     {
   echo "<p>Hello!</p>";
     }
 
-foreach($arrayelement as $x){
+foreach($provisionedActivities as $x){
     print "<p>$x</p>";
     }
 ?>
