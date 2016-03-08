@@ -6,7 +6,7 @@
  * Time: 09:31
  */
 $provisionedActivities = array("specs","mugs","sausage rolls"); // declares the array
-for($i = 1; $i <15; $i++)
+for($i = 1; $i <5; $i++)
     {
   echo "<p>Hello!</p>";
     }
