@@ -27,4 +27,10 @@ echo "<br>";
 
     $lowercase = strtolower($myname);
     print $lowercase;
+
+echo "<br>";
+
+    strpos("emily", "e");
+    strpos("Enaburekhan", "k");
+    strpos("Enaburekhan", "z");
 ?>
