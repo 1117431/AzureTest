@@ -9,8 +9,10 @@
 $myArray = array("do","re","mi"); // declares the array
 
 echo $myArray[0]; //outputs "do"
+echo "<br>"; //break line
 
 $myArray[1] = "la"; //modifies position 1 (re)
+echo "<br>";
 
 echo $myArray[1]; // outputs "la"
 
