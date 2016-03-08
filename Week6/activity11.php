@@ -34,7 +34,7 @@ echo "<br>";
 echo "<br>";
     print strpos("Enaburekhan", "k");
 echo "<br>";
-    print strpos("Enaburekhan", "z");
+    print strpos("Enaburekhan", "b");
 echo "<br>";
 
 ?>
