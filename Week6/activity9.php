@@ -6,7 +6,7 @@
  * Time: 09:31
  */
 $provisionedActivities = array("specs","mugs","sausage rolls"); // declares the array
-for($i = 1; $i <30; $i++)
+for($i = 1; $i <=30; $i++)
 {
     $y =0; // I am using this as a marker to tell that atleast one thing is being made
     echo  "<p> On day ".$i. " the following products are available: ";
