@@ -30,8 +30,8 @@ echo "<br>";
 
 echo "<br>";
 
-    strpos("emily", "e");
-    strpos("Enaburekhan", "k");
+    print strpos("emily", "e");
+    print strpos("Enaburekhan", "k");
     strpos("Enaburekhan", "z");
 
 ?>
