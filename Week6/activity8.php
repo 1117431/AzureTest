@@ -6,11 +6,15 @@
  * Time: 09:08
  */
 
-$provisionedActivities = array("specs","drugs","rock and roll"); // declares the array
+$provisionedActivities = array("specs","mugs","sausage rolls"); // declares the array
 
 // name each item in array as x and print all x in the array
+
+$myArray[1] = "hugs"; //modifies position 1 (mugs)
+unset($array[2]); //removes the array in position 2
+
 foreach($provisionedActivities as $x){
-            print "<p>$x</p>";
-        }
+    print "<p>$x</p>";
+}
 
 ?>
