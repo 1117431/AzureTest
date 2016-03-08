@@ -8,6 +8,7 @@
 
 $provisionedActivities = array("specs","drugs","rock and roll"); // declares the array
 
+// name each item in array as x and print all x in the array
 foreach($provisionedActivities as $x){
             print "<p>$x</p>";
         }
