@@ -13,7 +13,7 @@
 <body>
 <p>
     <?php
-    $wantedgoods = "mugs";
+    $wantedgoods = "specs";
 
     switch($wantedgoods){
         case "mugs":
