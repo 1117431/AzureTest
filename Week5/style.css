@@ -38,3 +38,8 @@ div {
     background-color: #f2f2f2;
     padding: 40px;
 }
+
+body{
+    margin-left:auto;
+    margin-right:auto;
+}
