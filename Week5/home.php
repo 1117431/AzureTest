@@ -3,6 +3,9 @@
     <meta charset="utf-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <ul>
+        <li><a href="login.php">Login Page</a></li>
+    </ul>
 </head>
 
 <body>
