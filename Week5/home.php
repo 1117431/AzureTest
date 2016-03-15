@@ -10,6 +10,6 @@
 
 <body>
 <h1>Hello Welcome to your test</h1>
-<?php // echo $username; echo $password;?>
+<?php // echo $username;?>
 </body>
 </html>
