@@ -3,6 +3,11 @@ title{
     margin-right: auto;
 }
 
+#loginBox{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 input[type=text], select {
     margin-left:auto;
     margin-right:auto;
