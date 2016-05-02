@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    background-color: gray;
+}
+
+nav {
+    height: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#mugContainer {
+    float: left;
+    width: 33.33%;
+}
+
+#mug1{
+    width: 180px;
+    height: 100px
+}
+
+#mugContainer2 {
+    float: right;
+    width: 33.33%;
+}
+
+#mug2{
+    width: 180px;
+    height: 100px
+}
+
+#mugContainer3 {
+    float: left;
+    width: 33.33%;
+}
+
+#mug3{
+    width: 180px;
+    height: 100px
+}
+footer{
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+#signupbox{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+#loginbox{
+    width: 500px;
+    margin: 0 auto;
+}
+
+fieldset{
+    width: 500px;
+}
+
+legend{
+    font-size: 20px;
+}
+
+label{
+    text-align: right;
+    width: 100px;
+    float: left;
+    font-weight:bold;
+}
+
+input{
+    width:300px;
+}
