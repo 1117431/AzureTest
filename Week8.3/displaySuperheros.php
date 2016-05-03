@@ -9,7 +9,7 @@
 <body>
 <header>
     <h1>The Super-Superhero System</h1>
-    <h2>Create a Superhero</h2>
+    <h2>Display a Superhero</h2>
     <p><a href="index.php">Return to home....</a></p>
 </header>
 <main>
