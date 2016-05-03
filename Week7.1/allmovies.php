@@ -20,7 +20,7 @@ $result = mysqli_query($db,$sql);
 
 <h2>Display All Movies</h2>
 
-<a href="index.php">Home</a>
+<a href="index.html">Home</a>
 
 <table>
     <tr>

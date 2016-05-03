@@ -6,29 +6,30 @@ h3{
     text-align: center;
 }
 
-
-#loginBox{
-    width: 500px;
-    margin: 0 auto;
+nav ul li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-fieldset {
-    width: 500px;
+a:link {
+    text-decoration: none;
 }
 
-legend{
-    font-size: 20px;
+a:visited {
+    text-decoration: none;
 }
 
-label{
-    text-align: right;
-    width: 100px;
-    float: left;
-    font-weight:bold;
-    padding-top: 10px;
+a:hover {
+    text-decoration: underline;
 }
 
-input{
-    width:200px;
+a:active {
+    text-decoration: underline;
+}
 
+body{
+    width:960px;
+    margin:0 auto;
+    text-align:left;
 }
