@@ -9,7 +9,7 @@
 <h1>Hello Welcome to your test</h1>
 <?php
 
-echo "Hello". $earth;
+echo "Hello"; $earth=$_GET['earth'];
 ?>
 </body>
 </html>
