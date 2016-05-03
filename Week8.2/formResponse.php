@@ -1,11 +1,3 @@
-<?php
-$forename = $_POST[“forename”];
-$surname = $_POST[“surname”];
-$gender = $_POST[“gender”];
-$power = $_POST[“power”];
-echo $forename . ' ' . $surname . ' ' . $gender . ' ' . $power;
-?>
-
 <table>
     <tr>
         <th>Forename</th>
@@ -15,6 +7,11 @@ echo $forename . ' ' . $surname . ' ' . $gender . ' ' . $power;
     </tr>
     <?php
     {
+        $forename = $_POST[“forename”];
+        $surname = $_POST[“surname”];
+        $gender = $_POST[“gender”];
+        $power = $_POST[“power”];
+
         echo "<tr>";
         echo "<td>" . $row[$forename] . "</td>";
         echo "<td>" . $row[$surname] . "</td>";
