@@ -9,9 +9,7 @@
 </head>
 
 <body>
-<h1>Hello Welcome to your test<?php
-    echo $_GET['username']
-    ?></h1>
+<h1>Hello Welcome to your test</h1>
 <?php
 echo $_GET['username']
 ?>
