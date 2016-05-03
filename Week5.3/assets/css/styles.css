@@ -1,0 +1,55 @@
+
+
+nav ul li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#jayne{
+    width: 240px;
+    float: left;
+    padding-right:10px;
+}
+
+#logo{
+    width: 240px;
+    height: 120px;
+}
+
+#banner{
+    width: 960px;
+}
+body{
+    width:960px;
+    margin:0 auto;
+    text-align:left;
+}
+#cont2{
+    color: white;
+}
+
+#up{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#top{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#latest{
+    background-color: #DBC9DF;
+}
+
+#upcoming{
+    background-color: #782A7E;
+}
+
+footer{
+    text-align: center;
+    background-color: #363636;
+    height: 100px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
