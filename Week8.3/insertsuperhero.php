@@ -11,5 +11,5 @@ if(mysqli_query($db, $sql)){ echo "Database Updated";
 } else{
     echo "Error:" . $sql. "<br>" . mysqli_error($db);
 }
-header("location:index.php")
+
 ?>
