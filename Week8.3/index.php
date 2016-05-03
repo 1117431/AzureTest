@@ -14,7 +14,7 @@
 <p>What would you like to doo?</p>
 <div id="menu">
     <ul>
-        <li><a href ="insertsuperhero.php">Insert a superhero</a></li>
+        <li><a href ="superheroform.html">Insert a superhero</a></li>
         <li><a href ="displaySuperheros.php">Display all Superheros</a></li>
         <li><a href ="battle.php">Insert a battle</a></li>
         <li><a href ="displayBattles.php">Display all battles</a></li>
