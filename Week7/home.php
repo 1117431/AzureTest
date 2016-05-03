@@ -10,6 +10,8 @@
 
 <body>
 <h1>Hello Welcome to your test</h1>
-<?php // echo $username;?>
+<?php
+echo $_GET['username']
+?>
 </body>
 </html>
