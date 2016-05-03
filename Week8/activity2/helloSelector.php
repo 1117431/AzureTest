@@ -6,11 +6,22 @@
 </head>
 <body>
 <h1>Title</h1>
-<p> This text gets ignored by the web server and is sent straight down to the client</p>
+<nav>
+    <ul>
+        <li><a href="helloPrinter.php?$earth">Earth</a></li>
+        <li><a href="helloPrinter.php">Mars</a></li>
+        <li><a href="helloPrinter.php">Uranus</a></li>
+    </ul>
+</nav>
 
 <?php
 
-echo "<p>This text is rendered first by the web server before send down";
+
+$earth = Earth;
+$mars = Mars;
+$uranus = Uranus;
+
+
 ?>
 </body>
 </html>
