@@ -7,6 +7,14 @@
     <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 
+<?php
+include_once("connection.php"); //Establishing connection with our database
+
+$sql = "SELECT * FROM marvelmovies";
+$result = mysqli_query($db,$sql);
+
+?>
+
 <body>
 <h1>Marvel Movies</h1>
 
@@ -39,3 +47,5 @@
 <footer>Copyright 2016</footer>
 </body>
 </html>
+
+
