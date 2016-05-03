@@ -1,9 +1,9 @@
 <?php
 include ("db_connection.php");
 
-$firstname =  $_POST['firstname'];
-$lastname =  $_POST['lastname'];
-$superpower =  $_POST['superpower'];
+$firstname =  $_POST["firstname"];
+$lastname =  $_POST["lastname"];
+$superpower =  $_POST["superpower"];
 
 $sql = "INSERT INTO superheros (firstName, lastName, mainSuperpower) VALUES ('$firstname', '$lastname', '$superpower')";
 
