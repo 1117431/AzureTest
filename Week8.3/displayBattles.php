@@ -12,7 +12,7 @@
     <p><a href="index.php">Return to home....</a></p>
 </header>
 <main>
-    <? include("db_connect.php");
+    <? include("db_connection.php");
 
     if (isset($_GET['id'])) {
         $superheroID = $_GET['id'];
