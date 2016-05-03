@@ -1,8 +1,8 @@
 <?php
 include ("db_connection.php");
 
-$superheroID =  $_POST["superhero"];
-$villan =  $_POST["villan"];
+$superheroID =  $_POST['superhero'];
+$villan =  $_POST['villan'];
 
 $sql = "INSERT INTO superheros (superheroID, villanFought) VALUES ('$superheroID', '$villan ')";
 
