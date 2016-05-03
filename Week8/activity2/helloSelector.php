@@ -7,8 +7,8 @@
 </head>
 <body>
 <h1>Title</h1>
-<fieldset id="field">
-    <p>Where would you like to say hello?</p>
+<fieldset>
+    <legend>Where would you like to say hello?</legend>
 <nav>
     <ul>
         <li><a href="helloPrinter.php?planet=earth">Earth</a></li>
