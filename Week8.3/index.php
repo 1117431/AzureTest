@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<!-- Drop down selection option menu-->
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>SuperHero Home Page</h2>
