@@ -6,15 +6,18 @@ h3{
     text-align: center;
 }
 
+body{
+    text-align: center;
+}
+
 
 #loginBox{
     width: 500px;
     margin: 0 auto;
 }
 
-fieldset{
+fieldset {
     width: 500px;
-    text-align: center;
 }
 
 legend{
