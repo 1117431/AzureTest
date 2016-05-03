@@ -16,8 +16,8 @@ echo $forename . ' ' . $surname . ' ' . $gender . ' ' . $power;
     <?php
     {
         echo "<tr>";
-        echo "<td>" . $row['forename'] . "</td>";
-        echo "<td>" . $row['surname'] . "</td>";
+        echo "<td>" . $row[$forename] . "</td>";
+        echo "<td>" . $row[$surname] . "</td>";
         echo "<td>" . $row['gender'] . "</td>";
         echo "<td>" . $row['power'] . "</td>";
         echo "</tr>";
