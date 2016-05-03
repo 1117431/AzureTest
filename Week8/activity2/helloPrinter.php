@@ -9,7 +9,14 @@
 <h1>Hello Welcome to your test</h1>
 <?php
 
-echo "Hello"; $earth=$_GET['earth'];
+if($_GET[planet]== 'earth'){
+    //// this happens if the value is 'earth'
+
+    echo "Welcome to $_GET[planet]";
+}
+else{
+    echo "Welcome to UK";
+}
 ?>
 </body>
 </html>
