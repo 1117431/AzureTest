@@ -6,12 +6,11 @@ h3{
     text-align: center;
 }
 
-form{
-    text-align: center;
-}
-#loginBox{
+
+#loginbox{
     width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
 fieldset{
@@ -30,5 +29,5 @@ label{
 }
 
 input{
-    width:300px;
+    width:200px;
 }
