@@ -21,7 +21,7 @@ $result = mysqli_query($db,$sql);
 
 <h2>Display All Movies created after 2010</h2>
 
-<a id="after2010" href="index.html">Home</a>
+<a href="index.html" id="after2010">Home</a>
 
 <table>
     <tr>
