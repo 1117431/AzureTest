@@ -14,6 +14,15 @@ if($_GET[planet]== 'earth'){
 
     echo "Welcome to $_GET[planet]";
 }
+
+elseif($_GET[planet]== 'mars'){
+    echo "Welcome to $_GET[planet]";
+}
+
+elseif($_GET[planet]== 'uranus'){
+    echo "Welcome to $_GET[planet]";
+}
+
 else{
     echo "Welcome to UK";
 }
