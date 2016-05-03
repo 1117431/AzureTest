@@ -5,3 +5,7 @@ header {
 body{
     text-align: center;
 }
+fieldset{
+    width: 250px;
+    height: 250px;
+}
