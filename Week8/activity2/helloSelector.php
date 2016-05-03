@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="activity2/style.css" type="text/css" />
 </head>
 <body>
 <h1>Title</h1>
