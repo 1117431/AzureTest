@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    background-color: gray;
+}
+nav {
+    height: 20px;
+}
+
+fieldset{
+    width: 500px;
+}
+body{
+    text-align: center;
+}

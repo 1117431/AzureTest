@@ -6,6 +6,7 @@
 </head>
 <body>
 <h1>Title</h1>
+<fieldset>
 <nav>
     <ul>
         <li><a href="helloPrinter.php?planet=earth">Earth</a></li>
@@ -13,9 +14,8 @@
         <li><a href="helloPrinter.php?planet=uranus">Uranus</a></li>
     </ul>
 </nav>
-
+</fieldset>
 <?php
-
 
 ?>
 </body>
