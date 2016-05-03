@@ -11,7 +11,7 @@
     <h1>The Super-Superhero System</h1>
     <h2>SuperHero Home Page</h2>
 </header>
-<p>What would you like to do?</p>
+<p>What would you like to doo?</p>
 <div id="menu">
     <ul>
         <li><a href ="battle.php">Insert a superhero</a></li>

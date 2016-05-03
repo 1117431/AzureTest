@@ -15,113 +15,115 @@
     </UL>
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend> Please leave a comment...</legend>
-            <label for="name">Name:</label>
-            <input type="text" name="name" value=""/>
-            <br>
-            <label for="email">Email:</label>
-            <input type="text" name="email" value=""/>
-            <br>
-            <label for="comments">Comment:</label>
+<form>
+    <fieldset>
+        <legend> Please leave a comment...</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" value=""/>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" value=""/>
+        <br>
+        <label for="comments">Comment:</label>
             <textarea name="comments" cols="45" rows="5">
             </textarea>
-            <br>
-            <input type="submit" value="Submit"/>
-        </fieldset>
-    </form>
+        <br>
+        <input type="submit" value="Submit"/>
+    </fieldset>
+</form>
 
-    <style>input, textarea{width: 400px;}</style>
-    <form>
-        <fieldset>
-            <legend> Please leave a comment...</legend>
-            <table>
-                <tr>
-                    <td><label>Name:</label></td>
-                   <td><input type="text" name="name" value=""/></td>
-                </tr>
-                <tr>
-                    <td><label>Email:</label></td>
-                    <td><input type="text" name="email" value=""/></td>
-                </tr>
-                <tr>
-                    <td><label>Comment:</label></td>
-                    <td><textarea name="comments" cols="45" rows="5"></textarea></td>
-                </tr>
-                <tr>
-                    <td colspin="2"><input type="submit" value="Submit"/>
-                </tr>
-            </table>
-        </fieldset>
-    </form>
+<style>input, textarea {
+    width: 400px;
+}</style>
+<form>
+    <fieldset>
+        <legend> Please leave a comment...</legend>
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="name" value=""/></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="text" name="email" value=""/></td>
+            </tr>
+            <tr>
+                <td><label>Comment:</label></td>
+                <td><textarea name="comments" cols="45" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspin="2"><input type="submit" value="Submit"/>
+            </tr>
+        </table>
+    </fieldset>
+</form>
 
-    <form>
-        First name:<br>
-        <input type="text" name="username"><br>
-        User password:<br>
-        <input type="password" name="psw">
-    </form>
+<form>
+    First name:<br>
+    <input type="text" name="username"><br>
+    User password:<br>
+    <input type="password" name="psw">
+</form>
 
-    <form>
-        First name:<br>
-        <input type="text" name="firstname" vaule="Mike"><br>
-        Last name:<br>
-        <input type="text" name="lastname" vaule = "Crabb"><br><br>
-        Birthday:<input type="date" name="bday">
-        <input type="submit" vaule="Submit">
-    </form>
-    <input type="radio" name="vehicle" value="Bike">
-    I have a bike
-    <br>
-    <input type="radio" name="vehicle" value="Car">
-    I have a car
-    <br>
-    <!-- Drop down selection option menu-->
-    <label for="location">Location:</label>
-    <select name="location">
-        <option value="">Select Location</option>
-        <option value="nyork">New York</option>
-        <option vaule="vanchouver">Vancouver</option>
-        <option vaule="atlantis">Atlantis</option>
-        <option vaule="alpha">Alpha Centauri</option>
-        <option vaule="blackpool">Blackpool</option>
-        <option vaule="bognor">Bognor Regis</option>
-    </select>
-    <br>
+<form>
+    First name:<br>
+    <input type="text" name="firstname" vaule="Mike"><br>
+    Last name:<br>
+    <input type="text" name="lastname" vaule="Crabb"><br><br>
+    Birthday:<input type="date" name="bday">
+    <input type="submit" vaule="Submit">
+</form>
+<input type="radio" name="vehicle" value="Bike">
+I have a bike
+<br>
+<input type="radio" name="vehicle" value="Car">
+I have a car
+<br>
+<!-- Drop down selection option menu-->
+<label for="location">Location:</label>
+<select name="location">
+    <option value="">Select Location</option>
+    <option value="nyork">New York</option>
+    <option vaule="vanchouver">Vancouver</option>
+    <option vaule="atlantis">Atlantis</option>
+    <option vaule="alpha">Alpha Centauri</option>
+    <option vaule="blackpool">Blackpool</option>
+    <option vaule="bognor">Bognor Regis</option>
+</select>
+<br>
 
-    <form>
-        Select your favourite color:
-        <input type="color" name="favcolor">
-    </form>
-    <br>
+<form>
+    Select your favourite color:
+    <input type="color" name="favcolor">
+</form>
+<br>
 
-    <form>
-        E-mail:
-        <input type="email" name="email">
-        <input type="submit">
-    </form>
-    <br>
+<form>
+    E-mail:
+    <input type="email" name="email">
+    <input type="submit">
+</form>
+<br>
 
-    <form>
-        Add your homepage:
-        <input type="url" name="homepage">
-    </form>
-    <br>
-    <!-- Autocomplete lesson 2-->
+<form>
+    Add your homepage:
+    <input type="url" name="homepage">
+</form>
+<br>
+<!-- Autocomplete lesson 2-->
 <form autocomplete="on">
-        First name:<input type="text" name="fname"><br>
-        Last name:<input type="text" name="lname"><br>
-        E-mail:<input type="email" name="email"
-    autocomplete="off"><br>
-        <input type="submit">
+    First name:<input type="text" name="fname"><br>
+    Last name:<input type="text" name="lname"><br>
+    E-mail:<input type="email" name="email"
+                  autocomplete="off"><br>
+    <input type="submit">
 </form>
 <!-- Points-->
 <input type="number" name="points" min="0" max="100" step="10" value="30">
 <br>
 <br>
-    <input type="text" name="fname" placeholder="First Name"><br>
-    <input type="text" name="lname" placeholder="Last Name"><br>
-    <input type="submit" name="Submit">
+<input type="text" name="fname" placeholder="First Name"><br>
+<input type="text" name="lname" placeholder="Last Name"><br>
+<input type="submit" name="Submit">
 </body>
 </html>
