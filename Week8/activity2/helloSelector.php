@@ -8,6 +8,7 @@
 <body>
 <h1>Title</h1>
 <fieldset>
+    <p>Where would you like to say hello?</p>
 <nav>
     <ul>
         <li><a href="helloPrinter.php?planet=earth">Earth</a></li>

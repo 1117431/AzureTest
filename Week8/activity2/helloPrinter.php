@@ -12,15 +12,15 @@
 if($_GET[planet]== 'earth'){
     //// this happens if the value is 'earth'
 
-    echo "Welcome to $_GET[planet]";
+    echo "Hello$_GET[planet]";
 }
 
 elseif($_GET[planet]== 'mars'){
-    echo "Welcome to $_GET[planet]";
+    echo "Hello $_GET[planet]";
 }
 
 elseif($_GET[planet]== 'uranus'){
-    echo "Welcome to $_GET[planet]";
+    echo "Hello $_GET[planet]";
 }
 
 else{
