@@ -34,6 +34,10 @@ body{
     text-align:left;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
 footer{
     text-align: center;
     background-color: #363636;
