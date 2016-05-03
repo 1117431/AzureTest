@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Title</h1>
-<fieldset>
+
     <p>Where would you like to say hello?</p>
 <nav>
     <ul>
@@ -16,7 +16,7 @@
         <li><a href="helloPrinter.php?planet=uranus">Uranus</a></li>
     </ul>
 </nav>
-</fieldset>
+
 <?php
 
 ?>
