@@ -19,7 +19,7 @@ $result = mysqli_query($db,$sql);
 <body>
 <h1>Marvel Movies</h1>
 
-<h2>Display All Movies created by Marvel Studios</h2>
+<h2>Display All Movies created after 2010</h2>
 
 <a href="index.html">Home</a>
 
