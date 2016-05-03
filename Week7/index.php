@@ -8,7 +8,7 @@
 
 <body>
 <h1>PHP Login Form with Session</h1>
-<div class="loginBox">
+<div id="loginBox">
     <h3>Login Form</h3>
     <br><br>
     <form method="post" action="login.php">
