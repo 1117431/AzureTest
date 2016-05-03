@@ -1,8 +1,8 @@
-h1{
+h1 {
     text-align: center;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
@@ -28,26 +28,28 @@ a:active {
     text-decoration: underline;
 }
 
-body{
-    width:960px;
-    margin:0 auto;
-    text-align:left;
+body {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 table, th, td {
     border: 1px solid black;
 }
 
-footer{
+footer {
     text-align: center;
     background-color: #363636;
     height: 50px;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-.after2010{
-   text-align: center;
-    width:100px;
-    margin:0 auto;
+
+.after2010 {
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
 }

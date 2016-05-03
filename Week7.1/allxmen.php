@@ -21,8 +21,9 @@ $result = mysqli_query($db,$sql);
 
 <h2>Display All Movies featuring X-MEN</h2>
 
-<a href="index.html">Home</a>
-
+<div class="after2010">
+    <a href="index.html" id="after2010">Home</a>
+</div>
 <table>
     <tr>
         <th>Marvel Movie ID</th>
