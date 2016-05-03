@@ -14,7 +14,7 @@ $result=mysqli_query($db,$sql);
 
     if(mysqli_num_rows($result) == 1)
     {
-        header("location: home.php"); // redirecting to another page
+        header("location: home.php post $username"); // redirecting to another page
     }else
     {
         echo "Incorrect username or password.";
