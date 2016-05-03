@@ -13,9 +13,9 @@
     <br><br>
     <form method="post" action="login.php">
         <fieldset>
-        <label>Username:</label><br>
+        <label>Username:</label>
         <input type="text" name="username" placeholder="username"/><br><br>
-        <label>Password:</label><br>
+        <label>Password:</label>
         <input type="password" name="password" placeholder="password"/><br><br>
         <input type="submit" name="submit" value="login"/>
             </fieldset>
