@@ -21,3 +21,12 @@ header("location:index.php")
 </body>
 </html>
 
+
+
+// Escape user inputs for security
+
+$first_name = mysqli_real_escape_string($link, $_POST['firstname']);
+
+$last_name = mysqli_real_escape_string($link, $_POST['lastname']);
+
+$email_address = mysqli_real_escape_string($link, $_POST['email']);
