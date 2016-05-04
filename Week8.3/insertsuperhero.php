@@ -13,13 +13,16 @@ if(mysqli_query($db, $sql)){ echo $_POST['firstname'];
     echo "Error:" . $sql. "<br>" . mysqli_error($db);
 }
 header("location:index.php")
-?>
-
-
-// Escape user inputs for security
+/*
+ * // Escape user inputs for security
 
 $first_name = mysqli_real_escape_string($link, $_POST['firstname']);
 
 $last_name = mysqli_real_escape_string($link, $_POST['lastname']);
 
 $email_address = mysqli_real_escape_string($link, $_POST['email']);
+ */
+?>
+
+
+
